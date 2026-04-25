@@ -1,8 +1,21 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <div>
+            
         <title>Create Account | Shivam Sharma Projects</title>
         <style>
+            body {
+                
+    /* Purana background-color hata dein aur ye likhein */
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    font-family: 'Segoe UI', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
   body {
     font-family: 'Arial', sans-serif;
     background-color: #f4f4f4;
@@ -42,18 +55,17 @@
 </style>
 
 <style>
+    
     /* Pure page ka background aur font */
     body {
-        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-        background-color: #f0f2f5;
-        margin: 0;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        color: #333;
-        padding: 40px 20px;
-    }
-
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f0f2f5;
+    margin: 0;
+    display: flex;
+    justify-content: center; /* Card ko left-right se beech mein laane ke liye */
+    align-items: center;     /* Card ko upar-neeche se beech mein laane ke liye */
+    height: 100vh;           /* Ye sabse zaroori hai center karne ke liye */
+}
     /* Profile Container */
     .container {
         background-color: white;
@@ -109,18 +121,17 @@
 </style>
         </head>
         <body>
-            <h2>Sign up Now</h2>
-            <h2>Create an Account</h2>
+    <div class="container"> <h2>Sign up Now</h2>
+        <br> <br>
+        <h2>Create an Account</h2>
 
-    <form action="Portfolio.html" method="POST">
-    <div>
+        <form action="Portfolio.html" method="GEt">
+            </body>
+    
         <input type="email" name="email" placeholder="Email id" required>
-    </div>
-    <br>
-    <div>
+    <br><br>
         <input type="password" name="password" placeholder="Password" required>
-    </div>
-    <br>
+    <br><br>
     <button type="submit">Sign Up</button>
 </form>
 <br><br>
@@ -140,6 +151,7 @@ function handleCredentialResponse(response) {
     alert("Login Successful");
 }
 </script>
+</style>
 
         </html>
         </body>
